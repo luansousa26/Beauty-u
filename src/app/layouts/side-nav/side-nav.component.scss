@@ -39,10 +39,6 @@ body {
     margin-left: 50px;
 }
 
-#main {
-    transition: margin-left .5s;
-    padding: 16px;
-}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -69,4 +65,25 @@ body {
 }
 .espaco{
     padding-top:20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    height:50px;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.corPadrao{
+    color: #D1AB7F;
 }
