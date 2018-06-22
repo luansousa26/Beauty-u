@@ -5,13 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InicialComponent } from './telas/inicial/inicial.component';
 import { SideNavComponent } from './layouts/side-nav/side-nav.component';
+import { PrincipalComponent } from './telas/principal/principal.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     InicialComponent,
-    SideNavComponent
+    SideNavComponent,
+    PrincipalComponent
   ],
   imports: [
     BrowserModule,
