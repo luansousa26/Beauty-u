@@ -19,7 +19,7 @@ body {
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -27,6 +27,8 @@ body {
 
 .sidenav a:hover {
     color: #f1f1f1;
+    font-weight: bold;
+    background:#D1AB7F;
 }
 
 .sidenav .closebtn {
@@ -59,7 +61,12 @@ body {
 }
 .beautYouText:hover{
     border-color: #D1AB7F;
+    font-weight: bold;
 }
 .beautYouSubText:hover{
-    border-color: #D1AB7F;
+    color: #D1AB7F;
+    font-weight: bold;
+}
+.espaco{
+    padding-top:20px;
 }
