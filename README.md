@@ -1,5 +1,9 @@
 # BeautyU
 
+![beauty-u1](https://user-images.githubusercontent.com/33549496/41804495-b85a1424-766d-11e8-8f4d-a6bee14ffc41.png)
+![beauty-u2](https://user-images.githubusercontent.com/33549496/41804509-de9157c4-766d-11e8-84ee-9a3c4158cae7.png)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
 
 ## Development server
