@@ -31,3 +31,10 @@
     margin-top: -20px;
     background: #212121;
 }
+.pente{
+    width: 40px;
+    height: 40px;
+}
+.pente:hover{
+    transform:rotate(360deg);
+}
