@@ -58,14 +58,16 @@
     width: 55.00%;
     padding: 5px;
 }
-.borderBlack{
-    border: solid;
-}
-#modelo2{
-    border: solid;
-    border-color: #D1AB7F;
-}
 
+#modelo:hover{
+    opacity: 0.5;
+}
+#modelo2:hover{
+    opacity: 0.5;
+}
+#modelo3:hover{
+    opacity: 0.5;
+}
 /* Clearfix (clear floats) */
 .row::after {
     content: "";
