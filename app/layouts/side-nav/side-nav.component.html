@@ -1,0 +1,34 @@
+<ul>
+  <li>
+    <span class="corPadrao" style="font-size:30px;cursor:pointer" (click)="openNav()">&#9776;</span>
+  </li>
+  <li>
+    <div class="logoNav">
+        <span class="logoTexto"><strong>B</strong>EAUTY-<strong>U</strong></span><br>
+      <span class="logoSubTexto">
+          PROJETO PARA SALÕES DE BELEZA
+      </span>
+    </div>
+  </li>
+</ul>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+  <div>
+    <div align="center">
+      <span class="beautYouText">BEAUTY YOU</span>
+    </div>
+    <div align="center" class="beautYouSubText">
+      <span>HAIRY</span>
+    </div>
+
+  </div>
+  <div class="espaco">
+    <a href="#">Sobre</a>
+    <a href="#">Serviços Oferecidos</a>
+    <a href="#">Fale Conosco</a>
+  </div>
+</div>
+
+<div id="main">
+  <router-outlet></router-outlet>
+</div>
