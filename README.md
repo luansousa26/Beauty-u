@@ -3,6 +3,7 @@
 ![beauty-u1](https://user-images.githubusercontent.com/33549496/41804495-b85a1424-766d-11e8-8f4d-a6bee14ffc41.png)
 ![beauty-u2](https://user-images.githubusercontent.com/33549496/41804509-de9157c4-766d-11e8-84ee-9a3c4158cae7.png)
 ![image](https://user-images.githubusercontent.com/33549496/41822639-572cf5ec-77c9-11e8-93b8-8f864832b114.png)
+![image](https://user-images.githubusercontent.com/33549496/41822672-c465dc96-77c9-11e8-9249-8665a605f216.png)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
