@@ -100,7 +100,8 @@
 }
 #masculino:hover{
     background:#343434;
-    color:white;
+    color: #007bff;
+    font-weight: bold;
 }
 #feminino{
         float: left;
@@ -112,7 +113,8 @@
 }
 #feminino:hover{
     background:#F6F6F6;
-    color:#111;
+    color: rgb(245, 129, 140);
+    font-weight: bold;
 }
 .espaco1{
     width: 200px;
