@@ -59,6 +59,14 @@
     width: 55.00%;
     padding: 5px;
 }
+@media only screen and (max-width: 550px) {
+    .columnTexto {
+        width: 400px;
+    }  
+    .modelo{
+        width:450px;
+    }
+}
 
 #modelo:hover{
     opacity: 0.5;
