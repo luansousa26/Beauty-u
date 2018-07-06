@@ -59,12 +59,12 @@
     width: 55.00%;
     padding: 5px;
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 450px) {
     .columnTexto {
         width: 400px;
     }  
     .modelo{
-        width:450px;
+        width:420px;
     }
 }
 
@@ -107,7 +107,6 @@
     background:#F6F6F6;
 }
 #masculino:hover{
-    background:#343434;
     color: #007bff;
     font-weight: bold;
 }
@@ -120,8 +119,8 @@
         background:#343434;
 }
 #feminino:hover{
-    background:#F6F6F6;
     color: rgb(245, 129, 140);
+    border-color: rgb(245, 129, 140);
     font-weight: bold;
 }
 .espaco1{
