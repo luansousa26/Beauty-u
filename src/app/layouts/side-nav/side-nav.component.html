@@ -3,7 +3,7 @@
     <span class="corPadrao" style="font-size:30px;cursor:pointer" (click)="openNav()">&#9776;</span>
   </li>
   <li>
-    <div class="logoNav">
+    <div (click)="router.navigate(['']);" class="logoNav">
         <span class="logoTexto"><strong>B</strong>EAUTY-<strong>U</strong></span><br>
       <span class="logoSubTexto">
           PROJETO PARA SALÕES DE BELEZA
@@ -14,7 +14,7 @@
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
   <div>
-    <div align="center">
+    <div (click)="router.navigate(['']);" align="center">
       <span class="beautYouText">BEAUTY YOU</span>
     </div>
     <div align="center" class="beautYouSubText">
