@@ -8,6 +8,7 @@ import { SideNavComponent } from './layouts/side-nav/side-nav.component';
 import { PrincipalComponent } from './telas/principal/principal.component';
 import { SobreComponent } from './telas/sobre/sobre.component';
 import { ServicosComponent } from './telas/servicos/servicos.component';
+import { FaleconoscoComponent } from './telas/faleconosco/faleconosco.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ServicosComponent } from './telas/servicos/servicos.component';
     SideNavComponent,
     PrincipalComponent,
     SobreComponent,
-    ServicosComponent
+    ServicosComponent,
+    FaleconoscoComponent
   ],
   imports: [
     BrowserModule,
