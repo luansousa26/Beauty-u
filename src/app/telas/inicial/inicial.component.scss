@@ -68,6 +68,15 @@ $img: nth($images, random(length($images)));
     }  
     .modelo{
         width:100%;
+        display: block;
+    }
+}
+@media only screen and (max-width: 1350px) {
+    .columnTexto {
+        width: 100%;
+    }  
+    .modelo{
+      display: none;
     }
 }
 
