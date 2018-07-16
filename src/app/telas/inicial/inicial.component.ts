@@ -28,11 +28,7 @@ export class InicialComponent implements OnInit {
   }
   displayNextImage() {
     this.controlador = (this.controlador === this.imagensDisponiveis.length - 1) ? 0 : this.controlador + 1;
-    try{
-      document.getElementById('img').style.backgroundImage = `url('${this.imagensDisponiveis[this.controlador]}')`;
-    }catch(e) {
       document.getElementById('img').style.backgroundImage = `url('${this.imagensDisponiveisNGH[this.controlador]}')`;
-    }
   }
 
   displayPreviousImage() {
