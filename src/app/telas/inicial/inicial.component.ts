@@ -19,7 +19,7 @@ export class InicialComponent implements OnInit {
       '../../../assets/background4.jpg'
     ];
     this.imagensDisponiveisNGH = [
-      '../../../../Beauty-u/assets/background.jpg',
+      '../../../Beauty-u/assets/background.jpg',
       '../../../Beauty-u/assets/background2.jpg',
       '../../../Beauty-u/assets/background3.jpg',
       '../../../Beauty-u/assets/background4.jpg'
