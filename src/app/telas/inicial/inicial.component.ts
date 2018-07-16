@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InicialComponent implements OnInit {
   imagensDisponiveis: any[] = [];
+  imagensDisponiveisNGH: any[] = [];
   controlador = -1;
   constructor() { }
 
@@ -17,11 +18,21 @@ export class InicialComponent implements OnInit {
       '../../../assets/background3.jpg',
       '../../../assets/background4.jpg'
     ];
+    this.imagensDisponiveisNGH = [
+      '../../../../Beauty-u/assets/background.jpg',
+      '../../../Beauty-u/assets/background2.jpg',
+      '../../../Beauty-u/assets/background3.jpg',
+      '../../../Beauty-u/assets/background4.jpg'
+    ];
     this.startTimer();
   }
   displayNextImage() {
     this.controlador = (this.controlador === this.imagensDisponiveis.length - 1) ? 0 : this.controlador + 1;
-    document.getElementById('img').style.backgroundImage = `url('${this.imagensDisponiveis[this.controlador]}')`;
+    try{
+      document.getElementById('img').style.backgroundImage = `url('${this.imagensDisponiveis[this.controlador]}')`;
+    }catch(e) {
+      document.getElementById('img').style.backgroundImage = `url('${this.imagensDisponiveisNGH[this.controlador]}')`;
+    }
   }
 
   displayPreviousImage() {
