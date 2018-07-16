@@ -28,7 +28,8 @@ export class InicialComponent implements OnInit {
   }
   displayNextImage() {
     this.controlador = (this.controlador === this.imagensDisponiveis.length - 1) ? 0 : this.controlador + 1;
-      document.getElementById('img').style.backgroundImage = `url('${this.imagensDisponiveisNGH[this.controlador]}')`;
+    // no deploy só roda com o link antes, local deve usar o array imagensDisponiveis  
+    document.getElementById('img').style.backgroundImage = `url('${this.imagensDisponiveisNGH[this.controlador]}')`;
   }
 
   displayPreviousImage() {
