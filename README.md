@@ -1,4 +1,4 @@
-# BeautyU https://luansousa26.github.io/Beauty-u/
+# :frog: BeautyU https://luansousa26.github.io/Beauty-u/
 
 ![image](https://user-images.githubusercontent.com/33549496/41822639-572cf5ec-77c9-11e8-93b8-8f864832b114.png)
 ![image](https://user-images.githubusercontent.com/33549496/41822672-c465dc96-77c9-11e8-9249-8665a605f216.png)
