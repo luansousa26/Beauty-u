@@ -147,3 +147,42 @@ $img: nth($images, random(length($images)));
     padding-right: 0px;
     padding-left: 0px;
 }
+#antes1{
+    background-image: url('../../../assets/antes-depois/antes1.jpg');
+    height: 400px;
+}
+#antes2{
+    background-image: url('../../../assets/antes-depois/antes2.jpg');
+    height: 400px;
+}
+#antes3{
+    background-image: url('../../../assets/antes-depois/antes3.jpg');
+    height: 400px;
+}
+#antes1:hover {
+    opacity: 0.9;
+    .position{
+        display: block;
+    }
+}
+#antes2:hover {
+    opacity: 0.9;
+    .position{
+        display: block;
+        opacity: 1;
+    }
+}
+#antes3:hover {
+    opacity: 0.9;
+    .position{
+        display: block;
+    }
+}
+.position{
+    display: none;
+    margin-top: 60%;
+    margin-left: 32%;
+    .position{
+        display: block;
+    }
+}
