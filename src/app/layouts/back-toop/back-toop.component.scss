@@ -1,0 +1,27 @@
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99;
+    border: none; 
+    outline: none; 
+    background-color: #D1AB7F; 
+    font-weight: bold;
+    color: white; 
+    cursor: pointer; 
+    padding: .5em .5em; 
+    border-radius: 60%; 
+    font-size: 1.5em; 
+    line-height: 20px;
+}
+
+#myBtn:hover {
+    background-color: white;
+    color:rgba(231, 190, 143, 0.781);;
+}
+.iconTop{
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 30px;
+}

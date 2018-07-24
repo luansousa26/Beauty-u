@@ -10,6 +10,7 @@ import { SobreComponent } from './telas/sobre/sobre.component';
 import { ServicosComponent } from './telas/servicos/servicos.component';
 import { FaleconoscoComponent } from './telas/faleconosco/faleconosco.component';
 import { FooterComponent } from './layouts/footer/footer.component';
+import { BackToopComponent } from './layouts/back-toop/back-toop.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { FooterComponent } from './layouts/footer/footer.component';
     SobreComponent,
     ServicosComponent,
     FaleconoscoComponent,
-    FooterComponent
+    FooterComponent,
+    BackToopComponent
   ],
   imports: [
     BrowserModule,
