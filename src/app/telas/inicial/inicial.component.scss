@@ -139,3 +139,11 @@ $img: nth($images, random(length($images)));
     width: 200px;
     padding-top: 30px;
 }
+.col-md-2{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.col-sm-12{
+    padding-right: 0px;
+    padding-left: 0px;
+}
