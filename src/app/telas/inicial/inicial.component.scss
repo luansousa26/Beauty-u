@@ -198,22 +198,13 @@
     font-family: Roboto, "Helvetica Neue", sans-serif!important;
     margin-top: 1px!important;
 }
-#imagem1{
-    background-image: url('../../../assets/produtos/gel.jpg')!important;
-    background-size: cover!important;
-}
-#imagem2{
-    background-image: url('../../../assets/produtos/nivea.jpg')!important;
-    background-size: cover!important;
-}
-#imagem3{
-    background-image: url('../../../assets/produtos/perfume.jpg')!important;
-    background-size: cover!important;
-}
-#imagem4{
-    background-image: url('../../../assets/produtos/perfume2.jpg')!important;
-    background-size: cover!important;
-}
 .divImagem{
-    height: 400px;
+    height: 300px;
+}
+img{
+    height: 100%;
+}
+.card:hover{
+ opacity: 0.6;
+ cursor: pointer;
 }
