@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 
 @Component({
   selector: 'app-inicial',
   templateUrl: './inicial.component.html',
   styleUrls: ['./inicial.component.scss']
 })
-export class InicialComponent implements OnInit {
+export class InicialComponent implements OnInit, OnDestroy {
   imagensDisponiveis: any[] = [];
   imagensDisponiveisNGH: any[] = [];
   controlador = -1;
-  constructor() { }
+  controle: any;
+  constructor() {}
 
   ngOnInit() {
     this.imagensDisponiveis = [
@@ -24,22 +25,19 @@ export class InicialComponent implements OnInit {
       '../../../Beauty-u/assets/background3.jpg',
       '../../../Beauty-u/assets/background4.jpg'
     ];
-    this.startTimer();
+    this.controle = setInterval(() => {this.displayNextImage(); }, 5000);
   }
   displayNextImage() {
     this.controlador = (this.controlador === this.imagensDisponiveis.length - 1) ? 0 : this.controlador + 1;
     // no deploy só roda com o link antes, local deve usar o array imagensDisponiveis  
-    document.getElementById('img').style.backgroundImage = `url('${this.imagensDisponiveisNGH[this.controlador]}')`;
+    document.getElementById('img').style.backgroundImage = `url('${this.imagensDisponiveis[this.controlador]}')`;
   }
 
   displayPreviousImage() {
     this.controlador = (this.controlador <= 0) ? this.imagensDisponiveis.length - 1 : this.controlador - 1;
     document.getElementById("img").style.backgroundImage  = `url('${this.imagensDisponiveis[this.controlador]}')`;
   }
-
-  startTimer() {
-    setInterval(() => {
-      this.displayNextImage();
-    }, 5000);
-  }
+  ngOnDestroy() {
+    clearInterval(this.controle);
+    }
 }
