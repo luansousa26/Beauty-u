@@ -1,9 +1,6 @@
-$images: ('../../../assets/background.jpg','../../../assets/background2.jpg','../../../assets/background3.jpg','../../../assets/background4.jpg');
-
-$img: nth($images, random(length($images)));
 .imagemInicial{
     background-size:cover;
-    background-image: url($img);   
+    background-image: url('../../../assets/background.jpg');   
     background-repeat: no-repeat;
     width: 100%;
     height: 400px;
@@ -82,12 +79,15 @@ $img: nth($images, random(length($images)));
 
 #modelo:hover{
     opacity: 0.5;
+    cursor: pointer;
 }
 #modelo2:hover{
     opacity: 0.5;
+    cursor: pointer;
 }
 #modelo3:hover{
     opacity: 0.5;
+    cursor: pointer;
 }
 /* Clearfix (clear floats) */
 .row::after {
@@ -121,6 +121,7 @@ $img: nth($images, random(length($images)));
 #masculino:hover{
     color: #007bff;
     font-weight: bold;
+    cursor: pointer;
 }
 #feminino{
         float: left;
@@ -134,6 +135,7 @@ $img: nth($images, random(length($images)));
     color: rgb(245, 129, 140);
     border-color: rgb(245, 129, 140);
     font-weight: bold;
+    cursor: pointer;
 }
 .espaco1{
     width: 200px;
@@ -161,12 +163,14 @@ $img: nth($images, random(length($images)));
 }
 #antes1:hover {
     opacity: 0.9;
+    cursor: pointer;
     .position{
         display: block;
     }
 }
 #antes2:hover {
     opacity: 0.9;
+    cursor: pointer;
     .position{
         display: block;
         opacity: 1;
@@ -174,6 +178,7 @@ $img: nth($images, random(length($images)));
 }
 #antes3:hover {
     opacity: 0.9;
+    cursor: pointer;
     .position{
         display: block;
     }
@@ -182,7 +187,4 @@ $img: nth($images, random(length($images)));
     display: none;
     margin-top: 50%;
     margin-left: 32%;
-    .position{
-        display: block;
-    }
 }
