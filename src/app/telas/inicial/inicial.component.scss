@@ -46,8 +46,8 @@ $img: nth($images, random(length($images)));
     color: #D1AB7F;
 }
 .modelo{
-    width: 200px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
 }
 
 * {
@@ -71,7 +71,7 @@ $img: nth($images, random(length($images)));
         display: block;
     }
 }
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 500px) {
     .columnTexto {
         width: 100%;
     }  
