@@ -9,6 +9,7 @@ import { PrincipalComponent } from './telas/principal/principal.component';
 import { SobreComponent } from './telas/sobre/sobre.component';
 import { ServicosComponent } from './telas/servicos/servicos.component';
 import { FaleconoscoComponent } from './telas/faleconosco/faleconosco.component';
+import { FooterComponent } from './layouts/footer/footer.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { FaleconoscoComponent } from './telas/faleconosco/faleconosco.component'
     PrincipalComponent,
     SobreComponent,
     ServicosComponent,
-    FaleconoscoComponent
+    FaleconoscoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
