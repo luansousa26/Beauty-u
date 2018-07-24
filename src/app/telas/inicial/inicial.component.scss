@@ -205,6 +205,22 @@ img{
     height: 100%;
 }
 .card:hover{
- opacity: 0.6;
+ opacity: 0.9;
  cursor: pointer;
+}
+.textoProduto{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Marker Felt, fantasy;
+    text-shadow: 0 0 2px rgba(169, 167, 164, 0.97);
+}
+.textoProduto:hover{
+    color: #D1AB7F;
+}
+.tituloProduto{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: Marker Felt, fantasy;
 }
