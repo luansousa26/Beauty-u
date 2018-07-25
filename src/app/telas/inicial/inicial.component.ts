@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 
 @Component({
@@ -10,7 +11,7 @@ export class InicialComponent implements OnInit, OnDestroy {
   imagensDisponiveisNGH: any[] = [];
   controlador = -1;
   controle: any;
-  constructor() {}
+  constructor(router: Router) {}
 
   ngOnInit() {
     this.imagensDisponiveis = [
@@ -29,13 +30,13 @@ export class InicialComponent implements OnInit, OnDestroy {
   }
   displayNextImage() {
     this.controlador = (this.controlador === this.imagensDisponiveis.length - 1) ? 0 : this.controlador + 1;
-    // no deploy só roda com o link antes, local deve usar o array imagensDisponiveis  
+    // no deploy só roda com o link antes, local deve usar o array imagensDisponiveis
     document.getElementById('img').style.backgroundImage = `url('${this.imagensDisponiveisNGH[this.controlador]}')`;
   }
 
   displayPreviousImage() {
     this.controlador = (this.controlador <= 0) ? this.imagensDisponiveis.length - 1 : this.controlador - 1;
-    document.getElementById("img").style.backgroundImage  = `url('${this.imagensDisponiveis[this.controlador]}')`;
+    document.getElementById('img').style.backgroundImage  = `url('${this.imagensDisponiveis[this.controlador]}')`;
   }
   ngOnDestroy() {
     clearInterval(this.controle);
