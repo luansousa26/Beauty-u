@@ -1,3 +1,5 @@
+import { FemininoComponent } from './telas/feminino/feminino.component';
+import { MasculinoComponent } from './telas/masculino/masculino.component';
 import { InicialComponent } from './telas/inicial/inicial.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -9,7 +11,9 @@ const routes: Routes = [
   { path: '', component: InicialComponent },
   { path: 'sobre', component: SobreComponent},
   { path: 'servicos', component: ServicosComponent},
-  { path: 'fale-conosco', component: FaleconoscoComponent}
+  { path: 'fale-conosco', component: FaleconoscoComponent},
+  { path: 'masculino', component: MasculinoComponent},
+  { path: 'feminino', component: FemininoComponent}
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
