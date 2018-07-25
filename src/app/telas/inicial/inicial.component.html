@@ -30,10 +30,10 @@
             <span id="servico">Qual tipo de serviço você procura?</span>
             <br/>
             <div align="center" class="espaco1">
-                <div id="masculino">
+                <div (click)="router.navigate(['/masculino'])" id="masculino">
                     <span>MASCULINO</span>
                 </div>
-                <div id="feminino">
+                <div (click)="router.navigate(['/feminino'])" id="feminino">
                     <span>FEMININO</span>
                 </div>
             </div>
