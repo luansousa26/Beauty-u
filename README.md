@@ -1,4 +1,4 @@
-# :frog: BeautyU https://luansousa26.github.io/Beauty-u/
+# :frog: BeautyU https://luansousa26.github.io/Beauty-u/ :hair:
 
 ## Telas:
 ![image](https://user-images.githubusercontent.com/33549496/41822639-572cf5ec-77c9-11e8-93b8-8f864832b114.png)
