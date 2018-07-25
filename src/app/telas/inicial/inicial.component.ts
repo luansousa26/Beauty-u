@@ -11,7 +11,7 @@ export class InicialComponent implements OnInit, OnDestroy {
   imagensDisponiveisNGH: any[] = [];
   controlador = -1;
   controle: any;
-  constructor(router: Router) {}
+  constructor(public router: Router) {}
 
   ngOnInit() {
     this.imagensDisponiveis = [
