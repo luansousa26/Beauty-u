@@ -21,5 +21,17 @@ export class SideNavComponent implements OnInit {
       document.getElementById('mySidenav').style.width = '0';
       document.getElementById('main').style.marginLeft = '0';
   }
-
+  alteraCor(opcao) {
+    switch (opcao) {
+     case 'elas':
+     document.getElementById('mySidenav').style.backgroundColor = '#ffc107';
+     break;
+     case 'normal':
+     document.getElementById('mySidenav').style.backgroundColor = '#111';
+     break;
+     case 'eles':
+     document.getElementById('mySidenav').style.backgroundColor = '#4c4445';
+     break;
+    }
+  }
 }
