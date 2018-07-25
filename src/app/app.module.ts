@@ -11,6 +11,8 @@ import { ServicosComponent } from './telas/servicos/servicos.component';
 import { FaleconoscoComponent } from './telas/faleconosco/faleconosco.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { BackToopComponent } from './layouts/back-toop/back-toop.component';
+import { MasculinoComponent } from './telas/masculino/masculino.component';
+import { FemininoComponent } from './telas/feminino/feminino.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { BackToopComponent } from './layouts/back-toop/back-toop.component';
     ServicosComponent,
     FaleconoscoComponent,
     FooterComponent,
-    BackToopComponent
+    BackToopComponent,
+    MasculinoComponent,
+    FemininoComponent
   ],
   imports: [
     BrowserModule,
