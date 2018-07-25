@@ -24,8 +24,8 @@ export class SideNavComponent implements OnInit {
   alteraCor(opcao) {
     switch (opcao) {
      case 'elas':
-     document.getElementById('mySidenav').style.backgroundColor = 'rgb(197, 36, 156)';
-     document.getElementById('logoNav1').style.backgroundColor = 'rgb(197, 36, 156)';
+     document.getElementById('mySidenav').style.backgroundColor = '#e91e63';
+     document.getElementById('logoNav1').style.backgroundColor = '#e91e63';
      break;
      case 'normal':
      document.getElementById('mySidenav').style.backgroundColor = '#111';
