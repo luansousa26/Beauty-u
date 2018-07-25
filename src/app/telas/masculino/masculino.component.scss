@@ -18,3 +18,48 @@
 img{
     height: 100%;
 }
+.alinhamentoTextoCortes{
+    margin-top: -143px;
+}
+.textoCortes{
+    color: #1c1c1c;
+    background: #D1AB7F;
+    padding: 20px;
+    font-family: Marker Felt, fantasy;
+}
+#corte1Hover{
+    display: none;
+}
+#corte2Hover{
+    display: none;
+}
+#corte3Hover{
+    display: none;
+}
+#corte4Hover{
+    display: none;
+}
+#corte1:hover{
+    opacity: 0.9;
+    #corte1Hover{
+        display: block;
+    }
+}
+#corte2:hover{
+    opacity: 0.9;
+    #corte2Hover{
+        display: block;
+    }
+}
+#corte3:hover{
+    opacity: 0.9;
+    #corte3Hover{
+        display: block;
+    }
+}
+#corte4:hover{
+    opacity: 0.9;
+    #corte4Hover{
+        display: block;
+    }
+}
