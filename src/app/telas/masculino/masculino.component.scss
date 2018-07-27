@@ -64,3 +64,29 @@ img{
         display: block;
     }
 }
+@media only screen and (max-width: 1050px) {
+    #corte1:hover{
+        opacity: 0.9;
+        #corte1Hover{
+            display: contents;
+        }
+    }
+    #corte2:hover{
+        opacity: 0.9;
+        #corte2Hover{
+            display: contents;
+        }
+    }
+    #corte3:hover{
+        opacity: 0.9;
+        #corte3Hover{
+            display: contents;
+        }
+    }
+    #corte4:hover{
+        opacity: 0.9;
+        #corte4Hover{
+            display: contents;
+        }
+    }
+}
