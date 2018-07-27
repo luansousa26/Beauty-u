@@ -1,10 +1,12 @@
 .header-masculino{
-    background-image: url('../../../assets/modelo2.jpg');
-    height: 500px;
+    background-image: url('../../../assets/background.jpg');
+    background-size: cover;
+    height: 300px;
 }
 .header-feminino{
-    background-image: url('../../../assets/modelo.jpg');
-    height: 400px;
+    background-image: url('../../../assets/background2.jpg');
+    background-size: cover;
+    height: 300px;
 }
 .tituloCorte{
     font-size: 25px;
@@ -89,4 +91,21 @@ img{
             display: contents;
         }
     }
+}
+.logo-masc{
+    padding-top: 10%;
+}
+.logo{
+    height: 60px;
+    width: 200px;
+    background-color: rgba(42, 110, 182, 0.59);
+	border: 1px solid rgba(0,0,0,0.1);
+}
+.logoTexto{
+    font-size:30px;
+    font-family: Marker Felt, fantasy;
+    font-weight: bold;
+    text-shadow: 0 0 2px #111;
+    color:white;
+
 }
