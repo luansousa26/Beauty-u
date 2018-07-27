@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sobre.component.scss']
 })
 export class SobreComponent implements OnInit {
-
+  
+  lat = -23.2828262;
+  lng = -46.7455076;
   constructor() { }
 
   ngOnInit() {

@@ -8,8 +8,16 @@
     font-weight: bold;
     text-shadow: 0 0 2px #343a40;
 }
-.image{
+.sobre1{
     background-image: url('../../../assets/sobre.jpg');
+    background-size:cover;
+}
+.sobre2{
+    background-image: url('../../../assets/sobre/sobre2.jpg');
+    background-size:cover;
+}
+.sobre3{
+    background-image: url('../../../assets/sobre/sobre3.jpg');
     background-size:cover;
 }
 #imagemSobre{
@@ -24,4 +32,40 @@
     box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12)!important;
     font-family: Roboto, "Helvetica Neue", sans-serif!important;
     margin-top: 1px!important;
+}
+.row{
+    height: 221px;
+}
+.color-sobre{
+    background: #bdbab7;;
+    color: white;
+    height: 60%;
+    height: 300px;
+}
+.texto{
+    margin-top: 20%;
+}
+.color-sobre2{
+    background:#148DE8;
+    color: white;
+    height: 60%;
+    height: 300px;
+}
+.color-sobre3{
+    background:rgb(255, 139, 7);
+    color: white;
+    height: 60%;
+    height: 300px;
+}
+agm-map {
+    height: 300px;
+  }
+.size-map{
+    height: 300px;
+}
+.color-sobre4{
+    background:#28a745;
+    color: white;
+    height: 60%;
+    height: 300px;
 }

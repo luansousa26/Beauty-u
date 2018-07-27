@@ -13,7 +13,7 @@ import { FooterComponent } from './layouts/footer/footer.component';
 import { BackToopComponent } from './layouts/back-toop/back-toop.component';
 import { MasculinoComponent } from './telas/masculino/masculino.component';
 import { FemininoComponent } from './telas/feminino/feminino.component';
-
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -31,7 +31,10 @@ import { FemininoComponent } from './telas/feminino/feminino.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyDamuwvDFPTTlR9Cv1RUAQxR-z3dntAeu8'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
