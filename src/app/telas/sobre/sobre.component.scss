@@ -60,12 +60,26 @@
 agm-map {
     height: 300px;
   }
-.size-map{
-    height: 300px;
-}
 .color-sobre4{
     background:#28a745;
     color: white;
     height: 60%;
     height: 300px;
+}
+@media only screen and (max-width: 761px) {
+    #visitar{
+        display: none;
+    }
+    .sobre1{
+        background-size: contain;
+    }
+    .sobre2{
+        background-size: contain;
+    }
+    .sobre3{
+        background-size: contain;
+    }
+    .texto{
+        margin-top: 15%;
+    }
 }
