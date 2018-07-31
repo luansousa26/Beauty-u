@@ -8,7 +8,6 @@ import { SideNavComponent } from './layouts/side-nav/side-nav.component';
 import { PrincipalComponent } from './telas/principal/principal.component';
 import { SobreComponent } from './telas/sobre/sobre.component';
 import { ServicosComponent } from './telas/servicos/servicos.component';
-import { FaleconoscoComponent } from './telas/faleconosco/faleconosco.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { BackToopComponent } from './layouts/back-toop/back-toop.component';
 import { MasculinoComponent } from './telas/masculino/masculino.component';
@@ -23,7 +22,6 @@ import { AgmCoreModule } from '@agm/core';
     PrincipalComponent,
     SobreComponent,
     ServicosComponent,
-    FaleconoscoComponent,
     FooterComponent,
     BackToopComponent,
     MasculinoComponent,
